@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pense Bem</title>
+    <link rel="stylesheet" href="estilos.css">
+    <script src="scripts.js"></script>
+  </head>
+
+  <body>
+    <div id="container">
+      <img src="LogoTectoy.png" alt="Logo da TecToy" id="logo">
+
+      <p><input type="text" id="tela1" value="*" readonly></p>
+      <p><input type="text" id="tela2" value="*" readonly></p>
+
+      <p>
+        <input type="button" class="botao" id="botaoA" value="A" onclick="jogar('A')">
+        <input type="button" class="botao" id="botaoB" value="B" onclick="jogar('B')">
+        <input type="button" class="botao" id="botaoC" value="C" onclick="jogar('C')">
+        <input type="button" class="botao" id="botaoD" value="D" onclick="jogar('D')">
+      </p>
+
+      <p><input type="button" id="botaoStart" value="START/RESET" onclick="iniciar()"></p>
+    </div>
+  </body>
+</html>
